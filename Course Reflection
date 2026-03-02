@@ -1,0 +1,47 @@
+---
+title: "Creating A GitHub Account"
+author: "Olivia Reeves"
+date: "2026-03-01"
+output: html_document
+---
+
+
+### Week 1
+#### Predictive Modeling & Processes
+ - We learned about the Bias-Variance Tradeoff, how our ideal goal is to minimize variance and bias but bias and variance typically move in opposite direction requiring a tradeoff.
+ - The dangers of overfitting and underfitting, overfit models perform great with training data but poorly on new data, overfitting can occur when a model is too complex.
+
+### Week 2
+#### Data Exploration
+ - We learned the difference between exploratory and explanatory analysis, exploratory explores the data to better understand it and explanatory explains the data, specifically to the appropriate stakeholders.
+ - We explored how transformations may be used to make data easier to model and understand, for example normalization may be used to re-scale the data to a "typical entry.
+
+### Week 3
+#### Linear Regression
+ - We learned how to perform linear regression using the lm() function in R.
+ - We discovered that linear regression is the go-to statistical modeling method for quantities, however variables such as correlated variables may affect its ability to perform.
+
+### Week 4
+#### Classification
+ - We learned about classification, approaches for predicting qualitative responses, linear regression cannot be used for these classification problems.
+ - We also explored logistic regression which predicts the probability the probability y belongs to a specific category.
+
+### Week 5
+#### Generalized Linear Models
+ - This week introduced Generalized Linear Models, which generalize the classical normal linear model, by relaxing its restrictive assumptions, allowing for modeling of non-normal data.
+ - We learned poisson regression, based off the discrete poisson distribution, poisson regression can be mathematically expressed by raising the coefficients to the exponential function e^x.
+
+### Week 6
+#### Tree Based Models
+ - We learned about decision trees, which are popular models that segment its predictors into regions and uses their mean or mode to forecast. 
+ - We learned about Random Forests, which typically improve the accuracy of a simple tree model. They typically work by generating different bootstrapped training data sets, building a decision tree, and averaging the predictions of the tree models for the regression models.
+
+### Week 7
+#### Unsupervised Methods
+ - We learned about supervised and unsupervised learning algorithms, unsupervised algorithms are used when labeled data is not available, and patterns must be discovered from the structure of the data.
+ - We learned how to find the optimal number of clusters using a fviz_nbclus() plot, how to perform k-means clustering, and how to visualize the clusters using R.
+
+### Week 8
+#### Delivering Results
+ - We emphasized the importance of communication in data analysis, and learned how to create a presentation using RMarkdown.
+ - We learned about Git and GitHub, Git is a version control system that can track changes to code and allow collaboration.
